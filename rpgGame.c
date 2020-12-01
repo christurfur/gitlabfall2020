@@ -8,7 +8,7 @@
 #include <stdio.h>
 
 
-void main(void)
+int main(void)
 {
 	int x,y,z,i,h,g,k,choice=0;
 	char name[256];
@@ -66,11 +66,17 @@ void main(void)
 					}
 					break;
 			}
-			case 5:
+			case 5: //Chris Cook's Room
 			{
-					while(choice != 99)
+					while(choice != 99) 
 					{
-							puts("you open the door and find ........");
+							puts("You open the door and find yourself in an flying helicopter with the doors on both sides open.");
+							puts("When walking foward through the helicopter, you find that the pilot is unconscious.");
+							puts("As you feel the nervous sweat forming on the surfaces of your palms, you find a dusty parachute and an old cell phone with a damaged glass screen.");
+							puts("The following scenarios arise in your mind:");
+							puts("1. Make an effort to attach the parachute.");
+							puts("2. Pick up the old cell phone");
+							puts("3. Attempt to remove the unconscious pilot and take over");
 							scanf("%d",&choice);
 					}
 					break;
